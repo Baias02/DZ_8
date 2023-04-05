@@ -14,9 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/dark_grey">
-
-
-
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -55,10 +52,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <Button
-         style="@style/Style"
-           android:text="Policy"
+            style="@style/Style"
+            android:text="Policy"
+            android:textAllCaps="false"
             android:textColor="@color/black"
             android:textAlignment="textStart"
+            android:backgroundTint="@color/white"
 
             />
         <Button
@@ -71,6 +70,7 @@
             />
         <Button
             style="@style/Style"
+            android:textAllCaps="false"
             android:text="Origin Country"
             android:textColor="@color/black"
             android:textAlignment="textStart"
@@ -79,6 +79,7 @@
             style="@style/Style"
             android:layout_marginTop="6dp"
             android:text="Brand"
+            android:textAllCaps="false"
             android:textColor="@color/black"
             android:textAlignment="textStart"
             />
